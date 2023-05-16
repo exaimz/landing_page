@@ -53,6 +53,7 @@ button {
     background-color: #3882f6;
     font-size: 18px;
     color: #E5E7EB;
+    border: none;
     border-radius: 19px;
 }
 
@@ -101,4 +102,20 @@ button {
 .card_text {
     padding: 1em;
     width: 250px;
+}
+
+.quote_space {
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    margin: 4em 0em;
+    padding: 5em 10em;
+}
+
+.quote_author {
+    text-align: end;
+    font-weight: bold;
 }
