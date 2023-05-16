@@ -29,7 +29,6 @@ ol {
     list-style-type: none;
     font-size: 18px;
     gap: 40px;
-    padding: 10px;
     display: flex;
 }
 
@@ -58,19 +57,48 @@ button {
 }
 
 .img_placeholder {
-    background-color: gray;
-    height: 148px;
-    width: 601px;
+    display: flex;
+    border: .3em solid #3882f6;
+    height: 15em;
+    width: 40em;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery_title {
     text-align: center;
+    padding: 1.5em;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .img_placeholder_two {
-    background-color: gray;
-    height: 225px;
-    width: 225px;
+    display: flex;
+    border: .3em solid #3882f6;
+    border-radius: 2em;
+    height: 250px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_section {
+    margin: 0em 13em;
+    display: flex;
     text-align: center;
+    font-size: 18px;
+    justify-content: space-around;
+    gap: 2em;
 }
 
 .cards {
-    display: flex;    
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.card_text {
+    padding: 1em;
+    width: 250px;
 }
