@@ -55,6 +55,13 @@ h1 {
     text-align: center;
 }
 
+.img_placeholder_two {
+    background-color: gray;
+    height: 225px;
+    width: 225px;
+    text-align: center;
+}
+
 button {
     margin: 1em 0;
     padding: .5em 2em;
